@@ -1,5 +1,8 @@
 # Scholars Portal Metadata (spPres) Reference
 
+
+## spPres Element Reference Table
+
 |                Element                 |                                                                               Definition                                                                                |                Type                 |                                  Example                                   |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|----------------------------------------------------------------------------|
 | spPres                                 | The root element of a Scholars Portal preservation record                                                                                                               | container                           | n/a                                                                        |
@@ -56,3 +59,18 @@
 | relatedObjectIdentification            | The identifier and sequential context of the related resource.                                                                                                          | container                           | n/a                                                                        |
 | relatedObjectIdentifierType            | A designation of the domain within which the identifier is unique.                                                                                                      | string                              | URI                                                                        |
 | relatedObjectIdentifierValue           | The value of the related object identifier.                                                                                                                             | string                              | /00063495/v90i0002/628_senapitics/object_3                                 |
+
+
+## spPres Event Reference Table
+
+|        Event Type        |                                                                                          Description                                                                                           |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ingest                   | Initial archival ingest of an article completed                                                                                                                                                |
+| Replacement              | Replacement ingest of an article by publisher request                                                                                                                                          |
+| Reload                   | Replacement ingest of an article for a reson other than publisher request. Must contain details in eventDetail.                                                                                |
+| Fixity check             | An active check of one of an object's fixity values. The value of eventType will be followed by the checksum used in the fixity check.                                                         |
+| well-formedness check    | A check of an object's well-formedness by JHOVE                                                                                                                                                |
+| validity check           | A check of an object's validity by JHOVE                                                                                                                                                       |
+| rightsLink change        | A record that an object's rightsLink value has changed.                                                                                                                                        |
+| preservationLevel change | A record that an object's preservation level has changed.                                                                                                                                      |
+| Made Inactive            | A record that an object was made inactive, e.g., removed from the ejournals database on the Journals platform. This is primarily due to technical issues. Must contain details in eventDetail. |
