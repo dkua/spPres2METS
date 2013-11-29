@@ -1,0 +1,841 @@
+<mets:mets>
+  <mets:dmdSec>
+    <mets:mdWrap MDTYPE="nih-article">
+      <mets:xmlData>
+        <jats:article article-type="research-article" xml:lang="en">	
+          <jats:front>		
+            <jats:journal-meta>			
+              <jats:issn pub-type="ppub">01641212</jats:issn>			
+              <jats:journal-title>The Journal of Systems &amp; Software</jats:journal-title>			
+              <jats:journal-id journal-id-type="publisher-id">JSS</jats:journal-id>			
+              <jats:publisher>				
+                <jats:publisher-name>Elsevier</jats:publisher-name>			
+              </jats:publisher>		
+            </jats:journal-meta>		
+            <jats:article-meta>			
+              <jats:self-uri content-type="pdf" xlink:href="YUT03430/01641212/00840012/11001853/main.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Full-Text PDF</jats:self-uri>			
+              <jats:issue>12</jats:issue>			
+              <jats:pub-date pub-type="ppub">				
+                <jats:string-date>201112</jats:string-date>				
+                <jats:year>2011</jats:year>				
+                <jats:month>12</jats:month>			
+              </jats:pub-date>			
+              <jats:page-range>2363-2373</jats:page-range>			
+              <jats:fpage>2363</jats:fpage>			
+              <jats:lpage>2373</jats:lpage>			
+              <jats:volume>84</jats:volume>			
+              <jats:title-group>				
+                <jats:article-title>How do we measure and improve the quality of a hierarchical ontology?</jats:article-title>			
+              </jats:title-group>			
+              <jats:article-id pub-id-type="archive">beydoun#2011#2363#2373#g</jats:article-id>
+              <jats:article-id pub-id-type="publisher-id">JSS</jats:article-id>			
+              <jats:article-id pub-id-type="pii">S0164-1212(11)00185-3</jats:article-id>			
+              <jats:article-id pub-id-type="doi">10.1016/j.jss.2011.07.010</jats:article-id>			
+              <jats:copyright-statement>Elsevier Inc.</jats:copyright-statement>			
+              <jats:copyright-year>2011</jats:copyright-year>			
+              <jats:contrib-group>				
+                <jats:contrib contrib-type="author">					
+                  <jats:name>						
+                    <jats:given-names>Ghassan</jats:given-names>						
+                    <jats:surname>Beydoun</jats:surname>					
+                  </jats:name>					
+                  <jats:email>beydoun@uow.edu.au</jats:email>					
+                  <jats:xref ref-type="aff" rid="AFF0005"/>					
+                  <jats:xref ref-type="corresp" rid="COR0005"/>				
+                </jats:contrib>				
+                <jats:contrib contrib-type="author">					
+                  <jats:name>						
+                    <jats:given-names>Antonio A.</jats:given-names>						
+                    <jats:surname>Lopez-Lorca</jats:surname>					
+                  </jats:name>					
+                  <jats:email>aall@uow.edu.au</jats:email>					
+                  <jats:xref ref-type="aff" rid="AFF0005"/>				
+                </jats:contrib>				
+                <jats:contrib contrib-type="author">					
+                  <jats:name>						
+                    <jats:given-names>Francisco</jats:given-names>						
+                    <jats:surname>García-Sánchez</jats:surname>					
+                  </jats:name>					
+                  <jats:email>frgarcia@um.es</jats:email>					
+                  <jats:xref ref-type="aff" rid="AFF0010"/>				
+                </jats:contrib>				
+                <jats:contrib contrib-type="author">					
+                  <jats:name>						
+                    <jats:given-names>Rodrigo</jats:given-names>						
+                    <jats:surname>Martínez-Béjar</jats:surname>					
+                  </jats:name>					
+                  <jats:email>rodrigo@um.es</jats:email>					
+                  <jats:xref ref-type="aff" rid="AFF0010"/>				
+                </jats:contrib>				
+                <jats:aff id="AFF0010">Faculty of Computer Science, University of Murcia, Murcia, Spain</jats:aff>				
+                <jats:aff id="AFF0005">School of Information Systems and Technology, University of Wollongong, NSW, 2522, Australia</jats:aff>			
+              </jats:contrib-group>			
+              <jats:author-notes>				
+                <jats:corresp id="COR0005">Corresponding author. Tel.: +61 2 4221 4037; fax: +61 2 4221 4045.</jats:corresp>			
+              </jats:author-notes>			
+              <jats:history>				
+                <jats:date date-type="received">					
+                  <jats:day>18</jats:day>					
+                  <jats:month>11</jats:month>					
+                  <jats:year>2010</jats:year>				
+                </jats:date>				
+                <jats:date date-type="revised">					
+                  <jats:day>3</jats:day>					
+                  <jats:month>5</jats:month>					
+                  <jats:year>2011</jats:year>				
+                </jats:date>				
+                <jats:date date-type="accepted">					
+                  <jats:day>6</jats:day>					
+                  <jats:month>7</jats:month>					
+                  <jats:year>2011</jats:year>				
+                </jats:date>			
+              </jats:history>			
+              <jats:abstract abstract-type="graphical">				
+                <jats:sec>					
+                  <jats:title>Highlights</jats:title>					
+                  <jats:p>► We first ask “How Good is Your Hierarchical Ontology?” ► We present a qualitative evaluation framework to answer this question. ► We then ask “Can We Improve/Repair any of Shortcomings of the Ontology Automatically?” ► We then present two algorithms that use the formal evaluation framework and evaluate the algorithms on two cases studies.</jats:p>				
+                </jats:sec>			
+              </jats:abstract>			
+              <jats:abstract abstract-type="author">				
+                <jats:title>Abstract</jats:title>				
+                <jats:sec>					
+                  <jats:p>Hierarchical ontologies enable organising information in a human–machine understandable form, but constructing them for reuse and maintainability remains difficult. Often supporting tools available lack formal methodological underpinning and their developers are not supported by any concomitant metrics. The paper presents a formal underpinning to provide quality metrics of a taxonomy hierarchical ontology and proposes a methodology for semi-automatic building of maintainable taxonomies. Users provide terms to be used to describe different ontological elements as well as their attributes and their ranges of values. The methodology uses the formalised metrics to assess the quality of the users input and proposes changes according to given quality constraints. The paper illustrates the metrics and the methodology in constructing and repairing two medium size well-known taxonomies.</jats:p>				
+                </jats:sec>			
+              </jats:abstract>			
+              <jats:kwd-group>				
+                <jats:kwd>Ontology</jats:kwd>				
+                <jats:kwd>Taxonomy</jats:kwd>				
+                <jats:kwd>Ontology evaluation</jats:kwd>				
+                <jats:kwd>Data model</jats:kwd>			
+              </jats:kwd-group>		
+              <jats:elocation-id content-type="archive">beydoun#2011#2363#2373#g</jats:elocation-id>
+            </jats:article-meta>	
+          </jats:front>	
+          <jats:custom xmlns="http://scholarsportal.info/metadata">		
+            <jats:dataset-name>YUT03430</jats:dataset-name>		
+            <jats:dataset-type>elsevier</jats:dataset-type>		
+            <jats:source-file>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/main.xml</jats:source-file>		
+            <jats:loading-info dataset="YUT03430" date="2011-10-16"/>		
+            <jats:cited>0</jats:cited>		
+            <jats:downloaded>0</jats:downloaded>		
+            <jats:publication-date>2011-12-01</jats:publication-date>	
+          </jats:custom>			
+        </jats:article>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+
+  <mets:amdSec>
+    <mets:rightsMD>
+      <mets:mdRef LOCTYPE="URL" xlink:href="http://www.ocul.on.ca/licences_info/view.php?dbid=131" />
+    </mets:rightsMD>
+
+    <mets:techMD ID="Some Profile ID">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:objectIdentifier>
+            <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho</premis:objectIdentifierValue>
+          </premis:objectIdentifier>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:digiprovMD ID="Some Profile Event #1" AMDID="Some Profile ID">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:event>
+            <premis:eventIdentifier>
+              <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+              <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835284541</premis:eventIdentifierValue>
+            </premis:eventIdentifier>
+            <premis:eventType>Ingest</premis:eventType>
+            <premis:eventDateTime>2011-10-28T16:54:44</premis:eventDateTime>
+          </premis:event>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+
+    <mets:techMD ID="Some Object ID #1">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/pdf_fulltext/1319835268215</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>bddcc454a0128d308b96dfcf949f40fd</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>73dde35ee1f508c23aefa907dae1fad7fd9feb7f</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>3479753957</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>597299</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>PDF/X</premis:formatName>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/144</premis:formatRegistryKey>
+                  <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+                </premis:formatRegistry>
+                <premis:formatNote>Tools providing this format identification:
+                  Droid (3.0)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>filepath</premis:contentLocationType>
+                  <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/main.pdf</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:objectEventLog>
+              <premis:event/>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType> 
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/pdf_fulltext/1319835268215</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/pdf_fulltext/1319835268215</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/pdf_fulltext/1319835268215</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+              </premis:event>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:techMD ID="Some Object ID #2">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>34919f6518320858655c9ba931fbdbd3</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>86f3deb365608b6d5652e9ac24d29a3e57cf0900</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>443260675</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>127892</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>Extensible Markup Language</premis:formatName>
+                  <premis:formatVersion>1.0</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatNote>Tools providing this format identification:
+                  Jhove (1.5)
+                  OIS XML Metadata (0.2)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>ML Database</premis:contentLocationType>
+                  <premis:contentLocationValue>Ejournals : /01641212/v84i0012/2363_hdwmaitqoaho.xml</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>includes</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275876</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>includes</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275979</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>includes</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276082</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>includes</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276185</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>includes</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276287</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:objectEventLog>
+              <premis:event/>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:techMD ID="Some Object ID #3">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275876</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>6398a59ca16204a9a1132e3f8730cb7f</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>13c82e887f40306cfcbfced0ae6ca0f7c9011305</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>4150904589</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>14050</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>JPEG File Interchange Format</premis:formatName>
+                  <premis:formatVersion>1.01</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/43</premis:formatRegistryKey>
+                  <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+                </premis:formatRegistry>
+                <premis:formatNote>Tools providing this format identification:
+                  Jhove (1.5)
+                  Exiftool (7.74)
+                  Droid (3.0)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>filepath</premis:contentLocationType>
+                  <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/gr1.jpg</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>is included in</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:objectEventLog>
+              <premis:event/>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType> 
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275876</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275876</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275876</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+              </premis:event>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:techMD ID="Some Object ID #4">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275979</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>ce45fb148ee1b3e2497dce4847919183</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>dc722a833220d92311e127bf5a7a921ac21ec23a</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>2614108201</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>19105</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>JPEG File Interchange Format</premis:formatName>
+                  <premis:formatVersion>1.01</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/43</premis:formatRegistryKey>
+                  <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+                </premis:formatRegistry>
+                <premis:formatNote>Tools providing this format identification:
+                  Jhove (1.5)
+                  Exiftool (7.74)
+                  Droid (3.0)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>filepath</premis:contentLocationType>
+                  <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/gr2.jpg</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>is included in</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:objectEventLog>
+              <premis:event/>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275979</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275979</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835275979</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+              </premis:event>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:techMD ID="Some Object ID #5">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276082</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>94b13837f0461ea62766ed01c9638c9a</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>01dbee4b9f82d48b2038936db591107f5a2b910a</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>732579291</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>21264</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>JPEG File Interchange Format</premis:formatName>
+                  <premis:formatVersion>1.01</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/43</premis:formatRegistryKey>
+                  <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+                </premis:formatRegistry>
+                <premis:formatNote>Tools providing this format identification:
+                  Jhove (1.5)
+                  Exiftool (7.74)
+                  Droid (3.0)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>filepath</premis:contentLocationType>
+                  <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/gr3.jpg</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>is included in</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:objectEventLog>
+              <premis:event/>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType> 
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276082</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276082</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276082</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+              </premis:event>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+
+    <mets:techMD ID="Some Object ID #6">
+      <mets:mdWrap MDTYPE="PREMIS">
+        <mets:xmlData>
+          <premis:object>
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276185</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCategory>file</premis:objectCategory>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+            </premis:preservationLevel>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                <premis:messageDigest>f8cd2dec7d5997abaa4a213e4781d461</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+                <premis:messageDigest>3bf263badc0942d52025b3ec9b2a305acbbb998c</premis:messageDigest>
+              </premis:fixity>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+                <premis:messageDigest>3965004342</premis:messageDigest>
+              </premis:fixity>
+              <premis:size>30728</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>JPEG File Interchange Format</premis:formatName>
+                  <premis:formatVersion>1.01</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                  <premis:formatRegistryKey>fmt/43</premis:formatRegistryKey>
+                  <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+                </premis:formatRegistry>
+                <premis:formatNote>Tools providing this format identification:
+                  Jhove (1.5)
+                  Exiftool (7.74)
+                  Droid (3.0)</premis:formatNote>
+              </premis:format>
+              <premis:originalName>YUT03430</premis:originalName>
+              <premis:storage>
+                <premis:contentLocation>
+                  <premis:contentLocationType>filepath</premis:contentLocationType>
+                  <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/gr4.jpg</premis:contentLocationValue>
+                </premis:contentLocation>
+              </premis:storage>
+            </premis:objectCharacteristics>
+            <premis:relationship>
+              <premis:relationshipType>structural</premis:relationshipType>
+              <premis:relationshipSubType>is included in</premis:relationshipSubType>
+              <premis:relatedObjectIdentification>
+                <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+                <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:relatedObjectIdentifierValue>
+              </premis:relatedObjectIdentification>
+            </premis:relationship>
+            <premis:objectEventLog>
+              <premis:event/>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276185</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276185</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+              </premis:event>
+              <premis:event>
+                <premis:eventIdentifier>
+                  <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                  <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276185</premis:eventIdentifierValue>
+                </premis:eventIdentifier>
+                <premis:eventType>Fixity Check - CRC32</premis:eventType>
+                <premis:eventOutcomeInformation>
+                  <premis:eventOutcome>Pass</premis:eventOutcome>
+                </premis:eventOutcomeInformation>
+                <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+              </premis:event>
+            </premis:objectEventLog>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+  </mets:amdSec>
+
+  <mets:techMD ID="Some Object ID #7">
+    <mets:mdWrap MDTYPE="PREMIS">
+      <mets:xmlData>
+        <premis:object>
+          <premis:objectIdentifier>
+            <premis:objectIdentifierType>URI</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276287</premis:objectIdentifierValue>
+          </premis:objectIdentifier>
+          <premis:objectCategory>file</premis:objectCategory>
+          <premis:preservationLevel>
+            <premis:preservationLevelValue>bit-level</premis:preservationLevelValue>
+          </premis:preservationLevel>
+          <premis:objectCharacteristics>
+            <premis:compositionLevel>0</premis:compositionLevel>
+            <premis:fixity>
+              <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+              <premis:messageDigest>6b31bca080375cc867433e0c26563043</premis:messageDigest>
+            </premis:fixity>
+            <premis:fixity>
+              <premis:messageDigestAlgorithm>SHA-1</premis:messageDigestAlgorithm>
+              <premis:messageDigest>5d158b84045bb9e9a2a2d3cdab2549c4e2b94e79</premis:messageDigest>
+            </premis:fixity>
+            <premis:fixity>
+              <premis:messageDigestAlgorithm>CRC32</premis:messageDigestAlgorithm>
+              <premis:messageDigest>1515829818</premis:messageDigest>
+            </premis:fixity>
+            <premis:size>19543</premis:size>
+            <premis:format>
+              <premis:formatDesignation>
+                <premis:formatName>JPEG File Interchange Format</premis:formatName>
+                <premis:formatVersion>1.01</premis:formatVersion>
+              </premis:formatDesignation>
+              <premis:formatRegistry>
+                <premis:formatRegistryName>http://www.nationalarchives.gov.uk/pronom/</premis:formatRegistryName>
+                <premis:formatRegistryKey>fmt/43</premis:formatRegistryKey>
+                <premis:formatRegistryRole>puid</premis:formatRegistryRole>
+              </premis:formatRegistry>
+              <premis:formatNote>Tools providing this format identification:
+                Jhove (1.5)
+                Exiftool (7.74)
+                Droid (3.0)</premis:formatNote>
+            </premis:format>
+            <premis:originalName>YUT03430</premis:originalName>
+            <premis:storage>
+              <premis:contentLocation>
+                <premis:contentLocationType>filepath</premis:contentLocationType>
+                <premis:contentLocationValue>/mnt/pillar/ejournals14/sci57/YUT03430/01641212/00840012/11001853/gr5.jpg</premis:contentLocationValue>
+              </premis:contentLocation>
+            </premis:storage>
+          </premis:objectCharacteristics>
+          <premis:relationship>
+            <premis:relationshipType>structural</premis:relationshipType>
+            <premis:relationshipSubType>is included in</premis:relationshipSubType>
+            <premis:relatedObjectIdentification>
+              <premis:relatedObjectIdentifierType>URI</premis:relatedObjectIdentifierType>
+              <premis:relatedObjectIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/xml_fulltext/1319835274522</premis:relatedObjectIdentifierValue>
+            </premis:relatedObjectIdentification>
+          </premis:relationship>
+          <premis:objectEventLog>
+            <premis:event/>
+            <premis:event>
+              <premis:eventIdentifier>
+                <premis:eventIdentifierType>SP Event</premis:eventIdentifierType> 
+                <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276287</premis:eventIdentifierValue>
+              </premis:eventIdentifier>
+              <premis:eventType>Fixity Check - CRC32</premis:eventType>
+              <premis:eventOutcomeInformation>
+                <premis:eventOutcome>Pass</premis:eventOutcome>
+              </premis:eventOutcomeInformation>
+              <premis:eventDateTime>2012-06-22T20:08:59</premis:eventDateTime>
+            </premis:event>
+            <premis:event>
+              <premis:eventIdentifier>
+                <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276287</premis:eventIdentifierValue>
+              </premis:eventIdentifier>
+              <premis:eventType>Fixity Check - CRC32</premis:eventType>
+              <premis:eventOutcomeInformation>
+                <premis:eventOutcome>Pass</premis:eventOutcome>
+              </premis:eventOutcomeInformation>
+              <premis:eventDateTime>2012-03-02T19:29:16</premis:eventDateTime>
+            </premis:event>
+            <premis:event>
+              <premis:eventIdentifier>
+                <premis:eventIdentifierType>SP Event</premis:eventIdentifierType>
+                <premis:eventIdentifierValue>/01641212/v84i0012/2363_hdwmaitqoaho/1319835276287</premis:eventIdentifierValue>
+              </premis:eventIdentifier>
+              <premis:eventType>Fixity Check - CRC32</premis:eventType>
+              <premis:eventOutcomeInformation>
+                <premis:eventOutcome>Pass</premis:eventOutcome>
+              </premis:eventOutcomeInformation>
+              <premis:eventDateTime>2011-12-04T19:17:09</premis:eventDateTime>
+            </premis:event>
+          </premis:objectEventLog>
+        </premis:object>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:techMD>
+</mets:amdSec>
+
+<mets:fileSec>
+</mets:fileSec>
+
+<mets:structMap>
+</mets:structMap>
+</mets:mets>
